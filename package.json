@@ -1,0 +1,14 @@
+{
+  "name": "node-git-api",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Orange Mi <orangemiwj@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^1.26.2",
+    "js-yaml": "^3.9.1",
+    "koa": "^2.3.0",
+    "koa-router": "^7.2.1",
+    "nodegit": "^0.20.1"
+  }
+}
