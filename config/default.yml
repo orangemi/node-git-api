@@ -1,0 +1,12 @@
+---
+PORT: 3000
+HOST: http://127.0.0.1:3000
+SSH_HOST: ssh://git@localhost
+REPO_PATH: ./data
+SESSION:
+  KEY: secret
+  NAME: session
+ENV: production
+GITHUB:
+  CLIENT_ID: 1234567890abcdef1234
+  CLIENT_SECRET: 1234567890abcdef1234567890abcdef12345678

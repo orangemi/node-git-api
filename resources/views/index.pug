@@ -1,0 +1,15 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible' content='ie=edge')
+    title Git Web
+    div#config(style='display:none')=JSON.stringify(config)
+    //- div#user(style='display:none')=JSON.stringify(user)
+  body
+    #app
+    script(src=assets.vendor.js)
+    script(src=assets.router.js)
+    link(rel='stylesheet' href=assets.vendor.css type='text/css')
+    link(rel='stylesheet' href=assets.router.css type='text/css')
