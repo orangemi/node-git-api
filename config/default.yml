@@ -1,0 +1,4 @@
+---
+PORT: 5010
+REPO_BASE_PATH: G:\projects\node-git-api\data
+ENV: production
