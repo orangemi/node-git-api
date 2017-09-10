@@ -1,2 +1,3 @@
 ---
 ENV: development
+REPO_BASE_PATH: /Users/Orange/projects/node-git-api/data
