@@ -1400,6 +1400,14 @@ mz@^2.6.0:
     object-assign "^4.0.1"
     thenify-all "^1.0.0"
 
+mz@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/mz/-/mz-2.7.0.tgz#95008057a56cafadc2bc63dde7f9ff6955948e32"
+  dependencies:
+    any-promise "^1.0.0"
+    object-assign "^4.0.1"
+    thenify-all "^1.0.0"
+
 nan@^2.2.0, nan@^2.3.0:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.6.2.tgz#e4ff34e6c95fdfb5aecc08de6596f43605a7db45"
@@ -1418,9 +1426,9 @@ netmask@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/netmask/-/netmask-1.0.6.tgz#20297e89d86f6f6400f250d9f4f6b4c1945fcd35"
 
-"node-git-web@git+ssh://git@imxiaomi.com:node-git-web.git#0.2.1":
-  version "0.2.1"
-  resolved "git+ssh://git@imxiaomi.com:node-git-web.git#a8bc12bf5ab56fe1a8f8021da381a90731cf1b5d"
+"node-git-web@git+ssh://git@imxiaomi.com:node-git-web.git#0.2.2":
+  version "0.2.2"
+  resolved "git+ssh://git@imxiaomi.com:node-git-web.git#783a9b52526185650918bbf4ac5ff8f536ee412e"
 
 node-gyp@^3.5.0:
   version "3.6.2"

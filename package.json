@@ -15,7 +15,8 @@
     "koa-mount": "^3.0.0",
     "koa-router": "^7.2.1",
     "koa-static": "^4.0.1",
-    "node-git-web": "git+ssh://git@imxiaomi.com:node-git-web.git#0.2.1",
+    "mz": "^2.7.0",
+    "node-git-web": "git+ssh://git@imxiaomi.com:node-git-web.git#0.2.2",
     "nodegit": "^0.20.1",
     "pug": "^2.0.0-rc.4",
     "urllib": "^2.25.0"
