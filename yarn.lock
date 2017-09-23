@@ -1294,7 +1294,7 @@ netmask@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/netmask/-/netmask-1.0.6.tgz#20297e89d86f6f6400f250d9f4f6b4c1945fcd35"
 
-"node-git-web@git+ssh://git@imxiaomi.com:node-git-web.git#0.2.2":
+"node-git-web@git+ssh://git@imxiaomi.com:node-git-web.git#v0.2.2":
   version "0.2.2"
   resolved "git+ssh://git@imxiaomi.com:node-git-web.git#783a9b52526185650918bbf4ac5ff8f536ee412e"
 
