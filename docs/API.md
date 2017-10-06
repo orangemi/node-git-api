@@ -37,6 +37,8 @@ create new repo
 
 
 ## Commit API
+### GET /repos/:name/commits/:commit
+
 ### GET /repos/:name/commits/:commit/commits
 
 ### GET /repos/:name/commits/:commit/tree/:path
