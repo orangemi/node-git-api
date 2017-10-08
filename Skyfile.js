@@ -18,6 +18,6 @@ sneaky('imxiaomi', function () {
     '- **'
   ].join('\n')
   this.after = ([
-    'yarn --production'
+    'npm install --production'
   ].join(' && '))
 })
