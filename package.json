@@ -18,7 +18,7 @@
     "koa-send": "^4.1.1",
     "koa-static": "^4.0.1",
     "mz": "^2.7.0",
-    "node-git-web": "git+ssh://git@imxiaomi.com:node-git-web.git#v0.4.0",
+    "node-git-web": "git+ssh://git@imxiaomi.com:node-git-web.git#v0.4.1",
     "nodegit": "^0.20.2",
     "urllib": "^2.25.0"
   },
