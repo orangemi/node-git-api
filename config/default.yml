@@ -1,5 +1,5 @@
 ---
-PORT: 5010
+PORT: 3000
 REPO_BASE_PATH: G:\projects\node-git-api\data
 REPO_BASE_URL: ssh://git@imxiaomi.com/
 ENV: production
