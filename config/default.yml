@@ -1,5 +1,15 @@
 ---
-PORT: 5010
+HOST: http://127.0.0.1:3000
+PORT: 3000
 REPO_BASE_PATH: G:\projects\node-git-api\data
 REPO_BASE_URL: ssh://git@imxiaomi.com/
+SESSION:
+  KEY: secret
+  NAME: session
+# USERS:
+# - github:orangemi
+# GITHUB:
+#   CLIENT_ID: 1234567890abcdef1234
+#   CLIENT_SECRET: 1234567890abcdef1234567890abcdef12345678
+
 ENV: production
