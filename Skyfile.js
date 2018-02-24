@@ -13,8 +13,8 @@ sneaky('imxiaomi', function () {
     '+ config',
     '+ config/default.yml',
     '+ package.json',
+    '+ package-lock.json',
     '+ yarn.lock',
-    '+ n.lock',
     '- **'
   ].join('\n')
   this.after = ([
