@@ -2,6 +2,7 @@
 import * as config from 'config'
 import * as Router from 'koa-router'
 import * as koaBody from 'koa-body'
+import { Context } from 'koa'
 
 import RepoAPI from './repo'
 import BranchAPI from './branch'
@@ -10,7 +11,7 @@ import commitAPI from './commit'
 
 const apiRouter = new Router()
 
-apiRouter.use(async (ctx, next) => {
+apiRouter.use(async (ctx: Context, next) => {
   try {
     await next()
   } catch (e) {

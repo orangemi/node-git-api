@@ -1,6 +1,6 @@
 'use strict'
-import { Middleware } from 'koa'
-import { Repo, CommitResult } from 'nodejs-git/src'
+import { Middleware, Context } from 'koa'
+import { Repo, CommitResult } from 'libgit/lib'
 
 const branchMiddleware: Middleware = async (ctx, next) => {
   const repo: Repo = ctx.repo

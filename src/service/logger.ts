@@ -1,4 +1,4 @@
-import { Middleware } from "koa"
+import { Middleware, Context } from 'koa'
 
 export default function logger () {
   return <Middleware>async function (ctx, next) {

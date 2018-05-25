@@ -4,3 +4,5 @@ node_modules/
 /debug
 /build
 resources/build
+/version.json
+/lib

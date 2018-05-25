@@ -1,5 +1,5 @@
 import * as config from 'config'
-import { Repo } from 'nodejs-git/src'
+import { Repo } from 'libgit/lib'
 
 function display (name: string, repo?: Repo) {
   return {

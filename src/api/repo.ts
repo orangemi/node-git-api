@@ -2,8 +2,8 @@
 import * as path from 'path'
 import * as fs from 'mz/fs'
 import * as config from 'config'
-import { Middleware } from 'koa'
-import { Repo } from 'nodejs-git/src'
+import { Context, Middleware } from 'koa'
+import { Repo } from 'libgit/lib'
 
 import repoBll from '../bll/repo'
 

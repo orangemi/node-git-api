@@ -1,7 +1,7 @@
 import * as path from 'path'
 import * as fs from 'mz/fs'
 import * as config from 'config'
-import { Middleware } from "koa"
+import { Middleware, Context } from "koa"
 import * as pug from 'pug'
 
 const devAssets = {
