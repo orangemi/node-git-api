@@ -6,10 +6,9 @@ html(lang='en')
     meta(http-equiv='X-UA-Compatible' content='ie=edge')
     title Git Web
     div#config(style='display:none')=JSON.stringify(config)
-    //- div#user(style='display:none')=JSON.stringify(user)
   body
     #app
     script(src=assets.vendor.js)
-    script(src=assets.router.js)
+    script(src=assets.main.js)
     link(rel='stylesheet' href=assets.vendor.css type='text/css')
-    link(rel='stylesheet' href=assets.router.css type='text/css')
+    link(rel='stylesheet' href=assets.main.css type='text/css')
